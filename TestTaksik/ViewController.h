@@ -7,6 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
+#import <RestKit/RestKit.h>
+#import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
 
 @interface ViewController : UIViewController
 

@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14F27" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Cities" representedClassName="Cities" syncable="YES">
+        <attribute name="city_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city_latitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city_longitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="innerID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Cities" positionX="-45" positionY="0" width="128" height="120"/>
+    </elements>
 </model>

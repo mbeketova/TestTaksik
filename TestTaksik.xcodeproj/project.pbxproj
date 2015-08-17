@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23DA6F8226A4B0372B5BB57A /* libPods-TestTaksik.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E89BCF139CDA5961349BF4 /* libPods-TestTaksik.a */; };
 		84E43F441B81F71E00F58D2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E43F431B81F71E00F58D2F /* main.m */; };
 		84E43F471B81F71E00F58D2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E43F461B81F71E00F58D2F /* AppDelegate.m */; };
 		84E43F4A1B81F71E00F58D2F /* TestTaksik.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84E43F481B81F71E00F58D2F /* TestTaksik.xcdatamodeld */; };
@@ -15,6 +16,13 @@
 		84E43F521B81F71E00F58D2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E43F511B81F71E00F58D2F /* Images.xcassets */; };
 		84E43F551B81F71E00F58D2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E43F531B81F71E00F58D2F /* LaunchScreen.xib */; };
 		84E43F611B81F71F00F58D2F /* TestTaksikTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E43F601B81F71F00F58D2F /* TestTaksikTests.m */; };
+		84E43F6C1B81FB4D00F58D2F /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E43F6B1B81FB4D00F58D2F /* CustomTableViewCell.m */; };
+		84E43F701B81FC4000F58D2F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E43F6E1B81FC4000F58D2F /* Icon.png */; };
+		84E43F711B81FC4000F58D2F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E43F6F1B81FC4000F58D2F /* Icon@2x.png */; };
+		84E43F741B81FE7000F58D2F /* Cities.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E43F731B81FE7000F58D2F /* Cities.m */; };
+		84E43F771B81FEE800F58D2F /* CitiesRKObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E43F761B81FEE800F58D2F /* CitiesRKObjectManager.m */; };
+		84E43F791B8226DE00F58D2F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E43F781B8226DE00F58D2F /* MapKit.framework */; };
+		84E43F7B1B8226EE00F58D2F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E43F7A1B8226EE00F58D2F /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C1C1D2B8E196AD78A454DEF /* Pods-TestTaksik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaksik.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestTaksik/Pods-TestTaksik.release.xcconfig"; sourceTree = "<group>"; };
+		3BA7570E63C3D50CBD615215 /* Pods-TestTaksik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaksik.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestTaksik/Pods-TestTaksik.debug.xcconfig"; sourceTree = "<group>"; };
+		73E89BCF139CDA5961349BF4 /* libPods-TestTaksik.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestTaksik.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E43F3E1B81F71E00F58D2F /* TestTaksik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTaksik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E43F421B81F71E00F58D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84E43F431B81F71E00F58D2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +53,17 @@
 		84E43F5A1B81F71F00F58D2F /* TestTaksikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTaksikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E43F5F1B81F71F00F58D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84E43F601B81F71F00F58D2F /* TestTaksikTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTaksikTests.m; sourceTree = "<group>"; };
+		84E43F6A1B81FB4D00F58D2F /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		84E43F6B1B81FB4D00F58D2F /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		84E43F6D1B81FBE200F58D2F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		84E43F6E1B81FC4000F58D2F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		84E43F6F1B81FC4000F58D2F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		84E43F721B81FE7000F58D2F /* Cities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cities.h; sourceTree = "<group>"; };
+		84E43F731B81FE7000F58D2F /* Cities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cities.m; sourceTree = "<group>"; };
+		84E43F751B81FEE800F58D2F /* CitiesRKObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitiesRKObjectManager.h; sourceTree = "<group>"; };
+		84E43F761B81FEE800F58D2F /* CitiesRKObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitiesRKObjectManager.m; sourceTree = "<group>"; };
+		84E43F781B8226DE00F58D2F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		84E43F7A1B8226EE00F58D2F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E43F7B1B8226EE00F58D2F /* CoreLocation.framework in Frameworks */,
+				84E43F791B8226DE00F58D2F /* MapKit.framework in Frameworks */,
+				23DA6F8226A4B0372B5BB57A /* libPods-TestTaksik.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F104843F435A346778D2F3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BA7570E63C3D50CBD615215 /* Pods-TestTaksik.debug.xcconfig */,
+				0C1C1D2B8E196AD78A454DEF /* Pods-TestTaksik.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		84E43F351B81F71E00F58D2F = {
 			isa = PBXGroup;
 			children = (
 				84E43F401B81F71E00F58D2F /* TestTaksik */,
 				84E43F5D1B81F71F00F58D2F /* TestTaksikTests */,
 				84E43F3F1B81F71E00F58D2F /* Products */,
+				0F104843F435A346778D2F3C /* Pods */,
+				E55CED2A94B3FFA7DC136D9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,10 +119,19 @@
 		84E43F401B81F71E00F58D2F /* TestTaksik */ = {
 			isa = PBXGroup;
 			children = (
+				84E43F6D1B81FBE200F58D2F /* PrefixHeader.pch */,
+				84E43F751B81FEE800F58D2F /* CitiesRKObjectManager.h */,
+				84E43F761B81FEE800F58D2F /* CitiesRKObjectManager.m */,
+				84E43F721B81FE7000F58D2F /* Cities.h */,
+				84E43F731B81FE7000F58D2F /* Cities.m */,
+				84E43F6E1B81FC4000F58D2F /* Icon.png */,
+				84E43F6F1B81FC4000F58D2F /* Icon@2x.png */,
 				84E43F451B81F71E00F58D2F /* AppDelegate.h */,
 				84E43F461B81F71E00F58D2F /* AppDelegate.m */,
 				84E43F4B1B81F71E00F58D2F /* ViewController.h */,
 				84E43F4C1B81F71E00F58D2F /* ViewController.m */,
+				84E43F6A1B81FB4D00F58D2F /* CustomTableViewCell.h */,
+				84E43F6B1B81FB4D00F58D2F /* CustomTableViewCell.m */,
 				84E43F4E1B81F71E00F58D2F /* Main.storyboard */,
 				84E43F511B81F71E00F58D2F /* Images.xcassets */,
 				84E43F531B81F71E00F58D2F /* LaunchScreen.xib */,
@@ -122,6 +167,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E55CED2A94B3FFA7DC136D9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84E43F7A1B8226EE00F58D2F /* CoreLocation.framework */,
+				84E43F781B8226DE00F58D2F /* MapKit.framework */,
+				73E89BCF139CDA5961349BF4 /* libPods-TestTaksik.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E43F641B81F71F00F58D2F /* Build configuration list for PBXNativeTarget "TestTaksik" */;
 			buildPhases = (
+				BAD8F1B4F150659623C0B781 /* Check Pods Manifest.lock */,
 				84E43F3A1B81F71E00F58D2F /* Sources */,
 				84E43F3B1B81F71E00F58D2F /* Frameworks */,
 				84E43F3C1B81F71E00F58D2F /* Resources */,
+				946A8061A97FCBD887659E18 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,9 +259,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E43F701B81FC4000F58D2F /* Icon.png in Resources */,
 				84E43F501B81F71E00F58D2F /* Main.storyboard in Resources */,
 				84E43F551B81F71E00F58D2F /* LaunchScreen.xib in Resources */,
 				84E43F521B81F71E00F58D2F /* Images.xcassets in Resources */,
+				84E43F711B81FC4000F58D2F /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,15 +276,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		946A8061A97FCBD887659E18 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestTaksik/Pods-TestTaksik-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAD8F1B4F150659623C0B781 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84E43F3A1B81F71E00F58D2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E43F741B81FE7000F58D2F /* Cities.m in Sources */,
 				84E43F471B81F71E00F58D2F /* AppDelegate.m in Sources */,
 				84E43F4A1B81F71E00F58D2F /* TestTaksik.xcdatamodeld in Sources */,
 				84E43F4D1B81F71E00F58D2F /* ViewController.m in Sources */,
+				84E43F6C1B81FB4D00F58D2F /* CustomTableViewCell.m in Sources */,
 				84E43F441B81F71E00F58D2F /* main.m in Sources */,
+				84E43F771B81FEE800F58D2F /* CitiesRKObjectManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,8 +446,10 @@
 		};
 		84E43F651B81F71F00F58D2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BA7570E63C3D50CBD615215 /* Pods-TestTaksik.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/admin/Desktop/Тестовые задания/TestTaksik/TestTaksik/PrefixHeader.pch";
 				INFOPLIST_FILE = TestTaksik/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,8 +458,10 @@
 		};
 		84E43F661B81F71F00F58D2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C1C1D2B8E196AD78A454DEF /* Pods-TestTaksik.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/admin/Desktop/Тестовые задания/TestTaksik/TestTaksik/PrefixHeader.pch";
 				INFOPLIST_FILE = TestTaksik/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,6 +521,7 @@
 				84E43F661B81F71F00F58D2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E43F671B81F71F00F58D2F /* Build configuration list for PBXNativeTarget "TestTaksikTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +530,7 @@
 				84E43F691B81F71F00F58D2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

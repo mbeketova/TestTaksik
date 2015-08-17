@@ -1,0 +1,46 @@
+//
+//  PrefixHeader.pch
+//  TestTaksik
+//
+//  Created by Admin on 17.08.15.
+//  Copyright (c) 2015 Mariya Beketova. All rights reserved.
+//
+
+#ifndef TestTaksik_PrefixHeader_pch
+#define TestTaksik_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#endif
+
+#if __IPHONE_OS_VERSION_MIN_REQUIRED
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#else
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <CoreServices/CoreServices.h>
+#endif
+
+// Make RestKit globally available
+#import <RestKit/RestKit.h>
+
+#define     MAIN_URL                   @"http://beta.taxistock.ru/taxik"
+#define     URL_METOD                  @"/api/client/query_cities"
+#define     CITY_ID                    @"city_id"
+#define     CITY_NAME                  @"city_name"
+#define     CITY_LATITUDE              @"city_latitude"
+#define     CITY_LONGITUDE             @"city_longitude"
+#define     INNER_ID                   @"innerID"
+
+#endif
