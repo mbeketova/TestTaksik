@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84E43F441B81F71E00F58D2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E43F431B81F71E00F58D2F /* main.m */; };
+		84E43F471B81F71E00F58D2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E43F461B81F71E00F58D2F /* AppDelegate.m */; };
+		84E43F4A1B81F71E00F58D2F /* TestTaksik.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84E43F481B81F71E00F58D2F /* TestTaksik.xcdatamodeld */; };
+		84E43F4D1B81F71E00F58D2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E43F4C1B81F71E00F58D2F /* ViewController.m */; };
+		84E43F501B81F71E00F58D2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E43F4E1B81F71E00F58D2F /* Main.storyboard */; };
+		84E43F521B81F71E00F58D2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E43F511B81F71E00F58D2F /* Images.xcassets */; };
+		84E43F551B81F71E00F58D2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E43F531B81F71E00F58D2F /* LaunchScreen.xib */; };
+		84E43F611B81F71F00F58D2F /* TestTaksikTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E43F601B81F71F00F58D2F /* TestTaksikTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84E43F5B1B81F71F00F58D2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E43F361B81F71E00F58D2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E43F3D1B81F71E00F58D2F;
+			remoteInfo = TestTaksik;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84E43F3E1B81F71E00F58D2F /* TestTaksik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTaksik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E43F421B81F71E00F58D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E43F431B81F71E00F58D2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84E43F451B81F71E00F58D2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84E43F461B81F71E00F58D2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84E43F491B81F71E00F58D2F /* TestTaksik.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestTaksik.xcdatamodel; sourceTree = "<group>"; };
+		84E43F4B1B81F71E00F58D2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84E43F4C1B81F71E00F58D2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84E43F4F1B81F71E00F58D2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84E43F511B81F71E00F58D2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84E43F541B81F71E00F58D2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84E43F5A1B81F71F00F58D2F /* TestTaksikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTaksikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E43F5F1B81F71F00F58D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E43F601B81F71F00F58D2F /* TestTaksikTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTaksikTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E43F3B1B81F71E00F58D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E43F571B81F71F00F58D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84E43F351B81F71E00F58D2F = {
+			isa = PBXGroup;
+			children = (
+				84E43F401B81F71E00F58D2F /* TestTaksik */,
+				84E43F5D1B81F71F00F58D2F /* TestTaksikTests */,
+				84E43F3F1B81F71E00F58D2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84E43F3F1B81F71E00F58D2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E43F3E1B81F71E00F58D2F /* TestTaksik.app */,
+				84E43F5A1B81F71F00F58D2F /* TestTaksikTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E43F401B81F71E00F58D2F /* TestTaksik */ = {
+			isa = PBXGroup;
+			children = (
+				84E43F451B81F71E00F58D2F /* AppDelegate.h */,
+				84E43F461B81F71E00F58D2F /* AppDelegate.m */,
+				84E43F4B1B81F71E00F58D2F /* ViewController.h */,
+				84E43F4C1B81F71E00F58D2F /* ViewController.m */,
+				84E43F4E1B81F71E00F58D2F /* Main.storyboard */,
+				84E43F511B81F71E00F58D2F /* Images.xcassets */,
+				84E43F531B81F71E00F58D2F /* LaunchScreen.xib */,
+				84E43F481B81F71E00F58D2F /* TestTaksik.xcdatamodeld */,
+				84E43F411B81F71E00F58D2F /* Supporting Files */,
+			);
+			path = TestTaksik;
+			sourceTree = "<group>";
+		};
+		84E43F411B81F71E00F58D2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84E43F421B81F71E00F58D2F /* Info.plist */,
+				84E43F431B81F71E00F58D2F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84E43F5D1B81F71F00F58D2F /* TestTaksikTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E43F601B81F71F00F58D2F /* TestTaksikTests.m */,
+				84E43F5E1B81F71F00F58D2F /* Supporting Files */,
+			);
+			path = TestTaksikTests;
+			sourceTree = "<group>";
+		};
+		84E43F5E1B81F71F00F58D2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84E43F5F1B81F71F00F58D2F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E43F3D1B81F71E00F58D2F /* TestTaksik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E43F641B81F71F00F58D2F /* Build configuration list for PBXNativeTarget "TestTaksik" */;
+			buildPhases = (
+				84E43F3A1B81F71E00F58D2F /* Sources */,
+				84E43F3B1B81F71E00F58D2F /* Frameworks */,
+				84E43F3C1B81F71E00F58D2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestTaksik;
+			productName = TestTaksik;
+			productReference = 84E43F3E1B81F71E00F58D2F /* TestTaksik.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84E43F591B81F71F00F58D2F /* TestTaksikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E43F671B81F71F00F58D2F /* Build configuration list for PBXNativeTarget "TestTaksikTests" */;
+			buildPhases = (
+				84E43F561B81F71F00F58D2F /* Sources */,
+				84E43F571B81F71F00F58D2F /* Frameworks */,
+				84E43F581B81F71F00F58D2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E43F5C1B81F71F00F58D2F /* PBXTargetDependency */,
+			);
+			name = TestTaksikTests;
+			productName = TestTaksikTests;
+			productReference = 84E43F5A1B81F71F00F58D2F /* TestTaksikTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E43F361B81F71E00F58D2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Mariya Beketova";
+				TargetAttributes = {
+					84E43F3D1B81F71E00F58D2F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					84E43F591B81F71F00F58D2F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 84E43F3D1B81F71E00F58D2F;
+					};
+				};
+			};
+			buildConfigurationList = 84E43F391B81F71E00F58D2F /* Build configuration list for PBXProject "TestTaksik" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E43F351B81F71E00F58D2F;
+			productRefGroup = 84E43F3F1B81F71E00F58D2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E43F3D1B81F71E00F58D2F /* TestTaksik */,
+				84E43F591B81F71F00F58D2F /* TestTaksikTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E43F3C1B81F71E00F58D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E43F501B81F71E00F58D2F /* Main.storyboard in Resources */,
+				84E43F551B81F71E00F58D2F /* LaunchScreen.xib in Resources */,
+				84E43F521B81F71E00F58D2F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E43F581B81F71F00F58D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E43F3A1B81F71E00F58D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E43F471B81F71E00F58D2F /* AppDelegate.m in Sources */,
+				84E43F4A1B81F71E00F58D2F /* TestTaksik.xcdatamodeld in Sources */,
+				84E43F4D1B81F71E00F58D2F /* ViewController.m in Sources */,
+				84E43F441B81F71E00F58D2F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E43F561B81F71F00F58D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E43F611B81F71F00F58D2F /* TestTaksikTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84E43F5C1B81F71F00F58D2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E43F3D1B81F71E00F58D2F /* TestTaksik */;
+			targetProxy = 84E43F5B1B81F71F00F58D2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84E43F4E1B81F71E00F58D2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E43F4F1B81F71E00F58D2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84E43F531B81F71E00F58D2F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E43F541B81F71E00F58D2F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E43F621B81F71F00F58D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84E43F631B81F71F00F58D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E43F651B81F71F00F58D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestTaksik/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84E43F661B81F71F00F58D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestTaksik/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84E43F681B81F71F00F58D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestTaksikTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestTaksik.app/TestTaksik";
+			};
+			name = Debug;
+		};
+		84E43F691B81F71F00F58D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestTaksikTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestTaksik.app/TestTaksik";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E43F391B81F71E00F58D2F /* Build configuration list for PBXProject "TestTaksik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E43F621B81F71F00F58D2F /* Debug */,
+				84E43F631B81F71F00F58D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E43F641B81F71F00F58D2F /* Build configuration list for PBXNativeTarget "TestTaksik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E43F651B81F71F00F58D2F /* Debug */,
+				84E43F661B81F71F00F58D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84E43F671B81F71F00F58D2F /* Build configuration list for PBXNativeTarget "TestTaksikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E43F681B81F71F00F58D2F /* Debug */,
+				84E43F691B81F71F00F58D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84E43F481B81F71E00F58D2F /* TestTaksik.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84E43F491B81F71E00F58D2F /* TestTaksik.xcdatamodel */,
+			);
+			currentVersion = 84E43F491B81F71E00F58D2F /* TestTaksik.xcdatamodel */;
+			path = TestTaksik.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84E43F361B81F71E00F58D2F /* Project object */;
+}
